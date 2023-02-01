@@ -15,34 +15,35 @@
     </head>
     <body>
         
-        <header>
-            <nav>
-                <h1><img class="logo" src="imagenes/LogoLOGO.png" alt="logo alura" ></h1>
-                <h2 id="titulo">Encriptador de Texto</h2>
-            </nav>
+        <header class="encabezado">
+            
+            <h1><img class="logo" src="imagenes/LogoLOGO.png" alt="logo alura" ></h1>
+            <h2 class="titulo">Encriptador de Texto</h2>            
             
         </header>
 
         <main>
             
-            <section class="principal">
-                <div class="input">
-                    <textarea class="textarea" cols="30" rows="10" placeholder="Ingrese texto aqui"></textarea>
-                </div>
-                
-                <div class="condiciones">
+                <section>
+                    <textarea class="input" cols="30" rows="10" placeholder="Ingrese texto aqui"></textarea>
+                    <div class="condiciones">
+                        <h6>Solo letras minúsculas y sin acentos</h6>
+                    </div>                           
+                                   
+                    <div class="botones">
+                        <button class="bencriptar">Encriptar</button>
+                        <button class="bdesencriptar">Desencriptar</button>
+                    </div>
 
-                </div>
-                <div class="botones">
+                </section>
+                <section >
+                    <textarea class="output" cols="20" rows="10" placeholder="Mensaje"></textarea>              
 
+                <div >
+                    <button class="botoncopiar">Copiar</button>
                 </div>
-                <div class="output">
 
-                </div>
-
-                <div class="botoncopiar">
-
-                </div>
+                </section>
             
         </main>
 
