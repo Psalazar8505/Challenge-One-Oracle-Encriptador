@@ -1,7 +1,7 @@
 *{
     font-family: 'Inter';
     font-weight: 400;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 150%; 
 }
 
@@ -12,7 +12,7 @@ body{
 
 .encabezado{
     display: flex;
-    margin: 10px;
+    margin: 10px 10px 0px 10px;
     padding: 10px;
 }
 
@@ -30,22 +30,32 @@ body{
     font-weight: bolder;
     color: #0A3871;
     background-size: auto;
-    background-color: white;
+    background-color: #ffffffE6;
     border-radius: 20px;
     padding: 30px 5px 5px 5px;
+    
 }
 
 main{
     display: flex;
-    margin-top: 50px;
-    margin-left: 80px;
+    flex-wrap: wrap;
+    width: 85vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    margin: auto;
 }
 
 .input{
     border: none;
+    border-radius: 24px;
     color: #0A3871;
-    background: white;
+    background: #ffffffE6;
     margin-top: 10px;
+    padding-top: 10px;
     padding-left: 10px;
     text-transform: lowercase;
 }
@@ -54,3 +64,67 @@ main{
     .input:focus{
         outline: none;
     }
+
+.output{
+    border: none;
+    border-radius: 20px;
+    color: #0A3871;
+    background: rgb(236, 235, 235, .9);
+    background-image: url(imagenes/encriptado.png);
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.output:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.bencriptar{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+}
+
+.bdesencriptar{
+    background: #E5E5E5;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.botoncopiar{
+    background: #ffffff;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 60px;
+    width: 250px;     
+}
+
+.condiciones{
+    color: #67808E;
+    font-size: 18px;
+    font-weight: bold;
+    background: #ffffffE6;
+    width: 400px;
+    border-radius: 24px;
+}
