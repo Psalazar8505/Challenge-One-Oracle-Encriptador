@@ -168,3 +168,12 @@ footer{
     border-radius: 24px;
     padding: 20px 5px 5px 10px;
 }
+
+@media screen and (max-width:480px) {
+    .entrada, .salida{
+        width: auto;
+    }
+    .iconos, .piepagina{
+        width: 100%;
+    }    
+}
