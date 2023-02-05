@@ -126,6 +126,18 @@ section{
     width: 250px;     
 }
 
+.botonreset{
+    background: #ffffff;
+    background-image: url(imagenes/reset.png);
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 63px;
+    width: 63px;
+    margin-left: 35px;
+}
+
 .condiciones{
     color: #67808E;
     font-size: 18px;

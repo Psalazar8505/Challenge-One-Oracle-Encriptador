@@ -31,15 +31,16 @@
                     </div>                           
                                    
                     <div class="botones">
-                        <button class="bencriptar">Encriptar</button>
-                        <button class="bdesencriptar">Desencriptar</button>
+                        <button class="bencriptar" onclick="bEncriptar()">Encriptar</button>
+                        <button class="bdesencriptar" onclick="bDesencriptar ()">Desencriptar</button>
                     </div>
 
                 </section>
                 <section >
                     <textarea class="output" cols="30" rows="8"></textarea>           
                 <div class="botones">
-                    <button class="botoncopiar">Copiar</button>
+                    <button class="botoncopiar" onclick="copy()">Copiar</button>
+                    <button class="botonreset" onclick="location.reload()"></button>                                     
                 </div>
 
                 </section>
@@ -49,4 +50,7 @@
         <footer>
             
         </footer>
+
+        <script src="scrip.js"></script>
+
     </body>
