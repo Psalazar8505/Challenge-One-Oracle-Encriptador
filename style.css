@@ -39,9 +39,7 @@ body{
 main{
     display: flex;
     flex-wrap: wrap;
-    width: 85vw;
     margin: 0 auto;
-    justify-content: center;
     align-items: center;
 }
 
@@ -127,11 +125,10 @@ section{
 }
 
 .botonreset{
-    background: #ffffff;
+    background: #E5E5E5;
     background-image: url(imagenes/reset.png);
     border: 1px solid #0A3871;
     border-radius: 24px;
-    color: white;
     cursor: pointer;
     height: 63px;
     width: 63px;
@@ -145,4 +142,29 @@ section{
     background: #ffffffE6;
     width: 400px;
     border-radius: 24px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.linkedin{
+    width: 50px;
+}
+
+.github{
+    width: 50px;
+}
+
+.piepagina{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bolder;
+    color: #0A3871;
+    background-size: auto;
+    background-color: #ffffffE6;
+    border-radius: 24px;
+    padding: 20px 5px 5px 10px;
 }
